@@ -155,9 +155,9 @@ select {
 
 .text-dark {color:  hsl( var(--clr-deepspaceblack) );}
 .text-accent {color:  hsl( var(--clr-moongray) );}
-.text-light {color:  var(--clr-stellarwhite) ;}
-.text-red {color:  var(--clr-marsred) ;}
-.text-teal {color:  var(--clr-teal) ;}
+.text-light {color:  hsl( var(--clr-stellarwhite) );}
+.text-red {color:  hsl( var(--clr-marsred) );}
+.text-teal {color:  hsl( var(--clr-teal) );}
 
 /* typography */
 
