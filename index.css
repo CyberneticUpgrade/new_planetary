@@ -387,7 +387,7 @@ select {
         right: 2rem;
         top: 2rem;
         background: none;
-        background-image: url(./assets/graphics/hamburger-menu.svg);
+        background-image: url(./assets/graphics/icon-hamburger.svg);
         background-repeat: no-repeat;
         background-position: center;
         width: 1.5rem;
@@ -397,7 +397,7 @@ select {
     }
     
     .mobile-nav-toggle[aria-expanded="true"] {
-        background-image: url(./assets/graphics/211652_close_icon.svg);
+        background-image: url(./assets/graphics/icon-close.svg);
     }
 
     .mobile-nav-toggle:focus-visible {

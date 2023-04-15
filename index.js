@@ -1,7 +1,7 @@
 // Hamburger nav
 
-const nav = documet.querySelector(".primary-navigation");
-const navToggle = document.querySelector(".mobile.nav.toggle");
+const nav = document.querySelector(".primary-navigation");
+const navToggle = document.querySelector(".mobile-nav-toggle");
 
 navToggle.addEventListener ("click", () => {
     
