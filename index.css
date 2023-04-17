@@ -350,6 +350,8 @@ select {
     display: none;
 }
 
+/* For browsers that may not support code  */
+/* then uncomment the @support block  */
 /* @supports (backdrop-filter: blur(1rem)) {
     .primary-navigation{
         background: hsl( var(--clr-deepspaceblack) / .2);
@@ -386,7 +388,7 @@ select {
         z-index: 2000;
         right: 2rem;
         top: 2rem;
-        background: none;
+        background: transparent;
         background-image: url(./assets/graphics/icon-hamburger.svg);
         background-repeat: no-repeat;
         background-position: center;
@@ -401,7 +403,7 @@ select {
     }
 
     .mobile-nav-toggle:focus-visible {
-        outline: 5px solid red;
+        outline: 5px solid hsl( var(--clr-marsred) );
         outline-offset: 5px;
 
     }
