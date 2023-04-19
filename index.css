@@ -197,6 +197,19 @@ select {
         padding-bottom: max(6rem, 20vh);
         align-items: end;
     }
+
+    .grid-container--about {
+        padding-bottom: max(6rem, 20vh);
+        align-items: end;
+    }
+    .grid-container--meet {
+        padding-bottom: max(6rem, 20vh);
+        align-items: end;
+    }
+    .grid-container--contact {
+        padding-bottom: max(6rem, 20vh);
+        align-items: end;
+    }
 }
 
 .sr-only {
@@ -508,10 +521,34 @@ body {
     background-image: url(./assets/graphics/astronaut-gargantua-5200x3250-9613.jpg);
 }
 
+.about {
+    background-image: url(./assets/graphics/gargantua-black-5200x3250-962112.jpg);
+}
+
+.meet {
+    background-image: url(./assets/graphics/gargantua-black-5200x3250-9611.jpg);
+}
+
+.contact {
+    background-image: url(./assets/graphics/wormhole-astronaut-5200x3250-9640.jpg);
+}
+
 @media (min-width: 35rem) {
     .home {
         background-image: url(./assets/graphics/astronaut-gargantua-5200x3250-9613.jpg);
 
+    }
+
+    .about {
+        background-image: url(./assets/graphics/gargantua-black-5200x3250-962112.jpg);
+    }
+    
+    .meet {
+        background-image: url(./assets/graphics/gargantua-black-5200x3250-9611.jpg);
+    }
+
+    .contact {
+        background-image: url(./assets/graphics/wormhole-astronaut-5200x3250-9640.jpg);
     }
 }
 
@@ -519,6 +556,18 @@ body {
     .home {
         background-image: url(./assets/graphics/astronaut-gargantua-5200x3250-9613.jpg);
 
+    }
+
+    .about {
+        background-image: url(./assets/graphics/gargantua-black-5200x3250-962112.jpg);
+    }
+    
+    .meet {
+        background-image: url(./assets/graphics/gargantua-black-5200x3250-9611.jpg);
+    }
+
+    .contact {
+        background-image: url(./assets/graphics/wormhole-astronaut-5200x3250-9640.jpg);
     }
 }
 

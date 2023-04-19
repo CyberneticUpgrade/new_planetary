@@ -15,3 +15,9 @@ JS Animation for Hero Text
 CSS Animation for button + more
 (https://vadimsadovski.tumblr.com/)--- saved for credit add-in for graphical assets
 Accessibility features added in
+
+4-19 (Added Pages:About/Meet/Contact):
+HTML Boiler setup for added pages, tweaked for future changes
+CSS Boiler setup for added pages, tweaked for future changes
+Accessibility built into added pages
+Skeleton boiler of added pages as placeholders until content received for update
