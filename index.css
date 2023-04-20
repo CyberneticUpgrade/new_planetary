@@ -161,6 +161,13 @@ select {
     max-width: 80rem;
 }
 
+.container-content {
+    padding-inline: 3rem;
+    margin-inline: 8rem ;
+    background: hsl( var(--clr-deepspaceblack) / .2);
+    backdrop-filter: blur(2rem);
+}
+
 .grid-container {
     display: grid;
     /* border: 5px solid blue; */
