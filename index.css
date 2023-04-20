@@ -163,9 +163,9 @@ select {
 
 .container-content {
     padding-inline: 3rem;
-    margin-inline: 8rem ;
+    margin-inline: auto;
     background: hsl( var(--clr-deepspaceblack) / .2);
-    backdrop-filter: blur(2rem);
+    backdrop-filter: blur(2rem);  
 }
 
 .grid-container {
@@ -178,6 +178,25 @@ select {
 
 .grid-container * {
     max-width: 50ch;
+}
+
+.grid-alt-container{
+    display: grid;
+    padding-inline: 2rem;
+    margin-block: 2rem;
+    place-content: center;
+}
+
+.backdrop {
+    background: hsl( var(--clr-deepspaceblack) / .1);
+    backdrop-filter: blur(2rem);
+}
+
+.meta {
+    flex-direction: column;
+    border-top: 1px solid hsl( var(--clr-stellarwhite) / .15);
+    padding-top: 2rem;
+    margin-top: 2rem;
 }
 
 /* ------------------ */
@@ -206,11 +225,13 @@ select {
     }
 
     .grid-container--about {
-        padding-bottom: max(6rem, 20vh);
-        align-items: end;
+        padding-bottom: max(6rem, 10vh);
+        justify-content: center;
+        align-items: center;
     }
     .grid-container--meet {
-        padding-bottom: max(6rem, 20vh);
+        padding-bottom: max(6rem, 10vh);
+        justify-content: center;
         align-items: end;
     }
     .grid-container--contact {
@@ -495,6 +516,7 @@ select {
 
 .tab-list {
     --gap: 2rem;
+    justify-content: center;
 }
 
 .dot-indicators > * {
