@@ -196,11 +196,11 @@ select {
     backdrop-filter: blur(2rem);
 }
 
-.about-meta {
+.container-deco {
     flex-direction: column;
-    border-top: 1px solid hsl( var(--clr-stellarwhite) / .15);
-    padding-top: 2rem;
-    margin-top: 2rem;
+    border-top: 1px solid hsl( var(--clr-stellarwhite) / .25);
+    padding-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .about-meta p {
